@@ -7,6 +7,7 @@ What you need:
 e.g., Diehl Corona MCI 
 <img width="763" height="635" alt="image" src="https://github.com/user-attachments/assets/8d89fd51-2dba-448c-8de7-794619da77b4" />
 
+
 - Inductive proximity sensor LJ18A3‑8‑Z/BX NPN 5V
 - Home Assistant with ESP add‑on
   
