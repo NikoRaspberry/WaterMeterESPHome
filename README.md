@@ -1,7 +1,7 @@
 # WaterMeterESPHome
 Water Meter with Inductive Proximity Sensor in ESPHome
 
-What you need:
+# What you need:
 - ESP8266 or ESP32
 - Household water meter with inductive (non‑magnetic) sensing
 e.g., Diehl Corona MCI 
@@ -11,7 +11,7 @@ e.g., Diehl Corona MCI
 - Inductive proximity sensor LJ18A3‑8‑Z/BX NPN 5V
 - Home Assistant with ESP add‑on
   
-How it works:
+# How it works:
 - Use the wasserzaehler.yaml file to flash the ESP.
 - Connect the inductive proximity sensor to the ESP.
 Example: ESP8266 wiring
@@ -23,7 +23,7 @@ Example: ESP8266 wiring
 
 - Attach the inductive proximity sensor to the water meter using thin double‑sided tape or a suitable 3D‑printed mount.
   
-Functionality:
+# Functionality:
 - Measures pulses from the water meter. You may need to adjust the amount of water per pulse in the code.
 Default setting: 1 liter per pulse.
 - Water flow is calculated. If no new pulse is detected for 180 seconds, the flow rate is reset to 0 L/min. This is important for the alarm logic.
